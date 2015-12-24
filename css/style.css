@@ -1,0 +1,106 @@
+/*body{
+  background: url("img/Fondo.svg") no-repeat fixed center;
+  background-size: cover;
+}*/
+@font-face{
+  font-family: "lang";
+  src: url("fonts/Langdon.woff") format("woff");
+}
+@font-face{
+  font-family: "verdab";
+  src: url("fonts/Verdana Bold.woff") format("woff");
+}
+@font-face{
+  font-family: "Verda";
+  src: url("fonts/Verdana.woff") format("woff");
+}
+
+#mexico{
+  color: #33CC66;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
+}
+.blue-text{
+  color: #00CCCC;
+  font-size: 40px;
+  text-align: center;
+}
+#recom-finales-txt{
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  font-family: Verda;
+}
+#recom-finales{
+  margin-top: 2%;
+      font-family: Verda;
+}
+#usa{
+  color: #00CCCC;
+  font-size: 18px;
+  margin-top: 5%;
+}
+#links{
+  color: #fff;
+
+}
+#recomendaciones{
+  left: 0%;
+  top: -135%;
+}
+#cruz{
+  text-shadow: none;
+  background: #000;
+  color: #fff;
+  font-size: 25px;
+  opacity: 1;
+}
+.selected{
+  position: absolute;
+  left: 0%;
+  top: -53%;
+  visibility: visible;
+  display: block;
+  cursor: pointer;
+}
+.unselected{
+  display: none;
+}
+.opt{
+  color: #fff;
+}
+#main-text{
+  color: #FF6666;
+  font-size: 60px;
+  font-family: Verda;
+}
+#gis{
+  margin-top:-5%;
+}
+#main-body{
+  margin-top: 0%;
+}
+#main-img{
+}
+#main-big-text{
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 2%;
+}
+#menu{
+  margin-top: 2%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.raton{
+  cursor: pointer;
+}
+/*@media (max-width: 1000px) {
+  body{
+    width: 1000px;
+  }
+}*/
